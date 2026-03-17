@@ -1,0 +1,653 @@
+{
+  "version": 1,
+  "last_updated": "2026-03-17",
+  "definitions": [
+    {
+      "id": "first_handshake",
+      "title": "First Handshake",
+      "description": "Участие в Protocol Summit S1 — первый контакт с сетью NeoMarket",
+      "icon": "handshake",
+      "scope": "individual",
+      "category": "milestone",
+      "rep_reward": 40
+    }
+  ],
+  "awarded": [
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "CopyPaste",
+      "member": "Ахмедвалиев Ишмурат Ильдарович"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "CopyPaste",
+      "member": "Колыванов Семен Иванович"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "CopyPaste",
+      "member": "Кустов Илья Сергеевич"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "CopyPaste",
+      "member": "Распопов Тимофей Андреевич"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "CopyPaste",
+      "member": "Султанахметов Михаил Сергеевич"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "bamnyam",
+      "member": "Штейнфельд Ирина Федоровна"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Без диких ягод",
+      "member": "Ильин Иван Алексеевич"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Без диких ягод",
+      "member": "Прохоров Аркадий Андреевич"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Без диких ягод",
+      "member": "Разбежкин Дмитрий Вячеславович"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "ВайбКодеры",
+      "member": "Агзамов Ринат Радикович"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "ВайбКодеры",
+      "member": "Репин Михаил Евгеньевич"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Гач&Муч",
+      "member": "Коршунов Павел Александрович"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Топ 10% БРС",
+      "member": "Петров Виктор Иванович"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Топ 10% БРС",
+      "member": "Смирнов Евгений Сергеевич"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Топ 10% БРС",
+      "member": "Тришина Ульяна Андревна"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Точка",
+      "member": "Вазилова Полина Денисовна"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Точка",
+      "member": "Кизилов Кирилл Романович"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Точка",
+      "member": "Мухина Татьяна Сергеевна"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Точка",
+      "member": "Титов Егор Федорович"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Точка",
+      "member": "Усольцев Максим Юрьевич"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "алкобаг и точка",
+      "member": "Иванов Владислав Денисович"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "алкобаг и точка",
+      "member": "Сафронов Александр Евгеньевич"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "датак",
+      "member": "Зайцев Максим Александрович"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "датак",
+      "member": "Мингалев Евгений Вячеславович"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "датак",
+      "member": "Ярмошенко Александр Ильич"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "др'.",
+      "member": "Кузьмин Максим Олегович"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "др'.",
+      "member": "Никитин Артемий Дмитриевич"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "др'.",
+      "member": "Фурман Максим Валерьевич"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "др'.",
+      "member": "Шаравьев Артем Владимирович"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "карась",
+      "member": "Вяцкова Екатерина Валерьевна"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "карась",
+      "member": "Зюков Михаил Андреевич"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "карась",
+      "member": "Ковалев Егор Александрович"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "карась",
+      "member": "Моховиков Максим Дмитриевич"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "карась",
+      "member": "Овчинников Данила Сергеевич"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "карась",
+      "member": "Рашитов Эдуард Ринатович"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "нормальный ворк",
+      "member": "Глушков Владимир Павлович"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "нормальный ворк",
+      "member": "Щипанов Арсений Кириллович"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "фухен духен",
+      "member": "Селиванов Семён Максимович"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "фухен духен",
+      "member": "Селиванов Фёдор Максимович"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "фухен духен",
+      "member": "Снетков Павел Михайлович"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Full Stack Attack",
+      "member": "Дзбановская Анна Андреевна"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Kukushiki",
+      "member": "Матович Стефан"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Kukushiki",
+      "member": "Метелева Дарья Алексеевна"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Kukushiki",
+      "member": "Суркина Мария Олеговна"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Kukushiki",
+      "member": "Федорова Алина Владимировна"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "OTTANTOTTO",
+      "member": "Хорев Матвей Алексеевич"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "QWE",
+      "member": "Верзилов Максим Александрович"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "QWE",
+      "member": "Мандрыченко Виктория Александровна"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "QWE",
+      "member": "Маяковский Владислав Александрович"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "QWE",
+      "member": "Патрин Арсений Сергеевич"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Randomcrew",
+      "member": "Джобиров Владимир Джамшедович"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Бри Бри Бикус Дикус Дебикус Дедикус",
+      "member": "Ахматнуров Артём Альбертович"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Бри Бри Бикус Дикус Дебикус Дедикус",
+      "member": "Володин Вячеслав Сергеевич"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Бри Бри Бикус Дикус Дебикус Дедикус",
+      "member": "Колесников Константин Иванович"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Бри Бри Бикус Дикус Дебикус Дедикус",
+      "member": "Лысенко Александр Сергеевич"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Вкусно и точка",
+      "member": "Карамышева Анастасия Сергеевна"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Вкусно и точка",
+      "member": "Карягина Полина Дмитриевна"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Вкусно и точка",
+      "member": "Чудиновских Артемий Владимирович"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Изи 90",
+      "member": "Барковский Артём Олегович"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Изи 90",
+      "member": "Зайцев Трофим Владимирович"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Изи 90",
+      "member": "Праводелова Александра Глебовна"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Изи 90",
+      "member": "Яковлева Александра Витальевна"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Мужчины и Поля",
+      "member": "Зиновьев Никита Андреевич"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Мужчины и Поля",
+      "member": "Зонов Александр Сергеевич"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Мужчины и Поля",
+      "member": "Щавровская Полина Константиновна"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Перекладыватели jsonов",
+      "member": "Вагапов Роман Алексеевич"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Перекладыватели jsonов",
+      "member": "Жилин Артём Григорьевич"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Перекладыватели jsonов",
+      "member": "Казанцев Никита Андреевич"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Перекладыватели jsonов",
+      "member": "Чернихов Георгий Павлович"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Перекладыватели jsonов",
+      "member": "Яковлев Савелий Константинович"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Прокрастинация",
+      "member": "Абатуров Никита Викторович"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Прокрастинация",
+      "member": "Агеев Илья Дмитриевич"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Прокрастинация",
+      "member": "Граблюк Роман Алексеевич"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Прокрастинация",
+      "member": "Костромитин Семён Викторович"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Разрабы Урала",
+      "member": "Самойленков Кирилл Александрович"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Разрабы Урала",
+      "member": "Торопов Дементий Сергеевич"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Хлебный мякиш",
+      "member": "Анкудинова Алёна Алексеевна"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Хлебный мякиш",
+      "member": "Пестова Виктория Рафаиловна"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Хлебный мякиш",
+      "member": "Слиньков Илья Владимирович"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Хлебный мякиш",
+      "member": "Трофимова Анастасия Максимовна"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Esc",
+      "member": "Басырова Алина Радмировна"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Esc",
+      "member": "Ильясова Лейсан Рамилевна"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Esc",
+      "member": "Талхин Марсель"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "KuhnyaDreams5.0",
+      "member": "Борисенко Дмитрий Антонович"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Studio Procrastination",
+      "member": "Гюзель Алпер"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Studio Procrastination",
+      "member": "Поспелов Денис Васильевич"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Гель Фа men 250 мл",
+      "member": "Васильченко Максим Владимирович"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Гель Фа men 250 мл",
+      "member": "Сагитова Аделия Римовна"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Гель Фа men 250 мл",
+      "member": "Третьяков Артём Сергеевич"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Кавказские пленники",
+      "member": "Горбатенко Данил Андреевич"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Кавказские пленники",
+      "member": "Даниелян Ашот Артурович"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Кавказские пленники",
+      "member": "Дронов Данила Евгеньевич"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Кавказские пленники",
+      "member": "Чугунов Тимофей Анатольевич"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Команда УрФУ",
+      "member": "Загидуллин Руслан Мансурович"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Маслмены",
+      "member": "Сухоруков Максим Валерьевич"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Мопсярки",
+      "member": "Елфимов Ярослав Петрович"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Мопсярки",
+      "member": "Лейко Ярослав Владимирович"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Невкусно без точки",
+      "member": "Плешков Максим Сергеевич"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Невкусно без точки",
+      "member": "Подойников Максим Александрович"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Проект от точки",
+      "member": "Вилкин Павел Александрович"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Проект от точки",
+      "member": "Мухомедьянов Шамиль Антонович"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Проект от точки",
+      "member": "Поляков Савелий Станиславович"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Проект от точки",
+      "member": "Чепчугов Артём Сергеевич"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Работает и точка",
+      "member": "Лысцов Владислав Юрьевич"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Работает и точка",
+      "member": "Трошкин Дмитрий Витальевич"
+    },
+    {
+      "date": "2026-03-09",
+      "achievement_id": "first_handshake",
+      "team": "Работает и точка",
+      "member": "Чертовиков Матвей Владимирович"
+    }
+  ]
+}

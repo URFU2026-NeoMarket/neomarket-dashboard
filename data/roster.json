@@ -1,0 +1,1461 @@
+{
+  "version": 3,
+  "last_updated": "2026-03-13",
+  "source": "extracted from create-tracking-sheet.gs (THR-0 + S0 survey)",
+  "notes": [
+    "Studio Procrastination: size updated 3→4 (confirmed by students)",
+    "Верзилов Максим Александрович (QWE): course unknown",
+    "Подойников, Мурыгин (Невкусно без точки): courses unknown"
+  ],
+  "summary": {
+    "total_teams": 40,
+    "total_members_listed": 168,
+    "total_members_expected": 174,
+    "by_syndicate": {
+      "Forge": {
+        "teams": 14,
+        "listed": 58,
+        "expected": 58
+      },
+      "Interface": {
+        "teams": 14,
+        "listed": 62,
+        "expected": 63
+      },
+      "QA Corps": {
+        "teams": 12,
+        "listed": 48,
+        "expected": 53
+      }
+    }
+  },
+  "teams": [
+    {
+      "name": "CopyPaste",
+      "syndicate": "Forge",
+      "size": 5,
+      "captain_fio": "Султанахметов Михаил Сергеевич"
+    },
+    {
+      "name": "bamnyam",
+      "syndicate": "Forge",
+      "size": 4,
+      "captain_fio": "Штейнфельд Ирина Федоровна"
+    },
+    {
+      "name": "Без диких ягод",
+      "syndicate": "Forge",
+      "size": 4,
+      "captain_fio": "Разбежкин Дмитрий Вячеславович"
+    },
+    {
+      "name": "ВайбКодеры",
+      "syndicate": "Forge",
+      "size": 5,
+      "captain_fio": "Репин Михаил Евгеньевич"
+    },
+    {
+      "name": "Гач&Муч",
+      "syndicate": "Forge",
+      "size": 2,
+      "captain_fio": "Коршунов Павел Александрович"
+    },
+    {
+      "name": "Маркетплейс и точка",
+      "syndicate": "Forge",
+      "size": 3,
+      "captain_fio": "Кисляков Максим Вячеславович"
+    },
+    {
+      "name": "Топ 10% БРС",
+      "syndicate": "Forge",
+      "size": 3,
+      "captain_fio": "Тришина Ульяна Андревна"
+    },
+    {
+      "name": "Точка",
+      "syndicate": "Forge",
+      "size": 5,
+      "captain_fio": "Вазилова Полина Денисовна"
+    },
+    {
+      "name": "алкобаг и точка",
+      "syndicate": "Forge",
+      "size": 6,
+      "captain_fio": "Иванов Владислав Денисович"
+    },
+    {
+      "name": "датак",
+      "syndicate": "Forge",
+      "size": 5,
+      "captain_fio": "Ярмошенко Александр Ильич"
+    },
+    {
+      "name": "др'.",
+      "syndicate": "Forge",
+      "size": 5,
+      "captain_fio": "Шаравьев Артем Владимирович"
+    },
+    {
+      "name": "карась",
+      "syndicate": "Forge",
+      "size": 6,
+      "captain_fio": "Рашитов Эдуард Ринатович"
+    },
+    {
+      "name": "нормальный ворк",
+      "syndicate": "Forge",
+      "size": 2,
+      "captain_fio": "Глушков Владимир Павлович"
+    },
+    {
+      "name": "фухен духен",
+      "syndicate": "Forge",
+      "size": 3,
+      "captain_fio": "Селиванов Семён Максимович"
+    },
+    {
+      "name": "Full Stack Attack",
+      "syndicate": "Interface",
+      "size": 5,
+      "captain_fio": "Караев Сергей Рамазанович"
+    },
+    {
+      "name": "Kukushiki",
+      "syndicate": "Interface",
+      "size": 4,
+      "captain_fio": "Матович Стефан"
+    },
+    {
+      "name": "OTTANTOTTO",
+      "syndicate": "Interface",
+      "size": 4,
+      "captain_fio": "Хорев Матвей Алексеевич"
+    },
+    {
+      "name": "QWE",
+      "syndicate": "Interface",
+      "size": 5,
+      "captain_fio": "Маяковский Владислав Александрович"
+    },
+    {
+      "name": "Randomcrew",
+      "syndicate": "Interface",
+      "size": 5,
+      "captain_fio": "Мельникова Виктория Денисовна"
+    },
+    {
+      "name": "Бри Бри Бикус Дикус Дебикус Дедикус",
+      "syndicate": "Interface",
+      "size": 5,
+      "captain_fio": "Володин Вячеслав Сергеевич"
+    },
+    {
+      "name": "Вкусно и точка",
+      "syndicate": "Interface",
+      "size": 5,
+      "captain_fio": "Карягина Полина Дмитриевна"
+    },
+    {
+      "name": "Изи 90",
+      "syndicate": "Interface",
+      "size": 4,
+      "captain_fio": "Барковский Артём Олегович"
+    },
+    {
+      "name": "Мужчины и Поля",
+      "syndicate": "Interface",
+      "size": 5,
+      "captain_fio": "Щавровская Полина Константиновна"
+    },
+    {
+      "name": "Перекладыватели jsonов",
+      "syndicate": "Interface",
+      "size": 5,
+      "captain_fio": "Чернихов Георгий Павлович"
+    },
+    {
+      "name": "Прокрастинация",
+      "syndicate": "Interface",
+      "size": 4,
+      "captain_fio": "Агеев Илья Дмитриевич"
+    },
+    {
+      "name": "ПэпеФа",
+      "syndicate": "Interface",
+      "size": 3,
+      "captain_fio": "Смирнов Евгений Игорьевич"
+    },
+    {
+      "name": "Разрабы Урала",
+      "syndicate": "Interface",
+      "size": 5,
+      "captain_fio": "Торопов Дементий Сергеевич"
+    },
+    {
+      "name": "Хлебный мякиш",
+      "syndicate": "Interface",
+      "size": 4,
+      "captain_fio": "Пестова Виктория Рафаиловна"
+    },
+    {
+      "name": "Esc",
+      "syndicate": "QA Corps",
+      "size": 4,
+      "captain_fio": "Ильясова Лейсан Рамилевна"
+    },
+    {
+      "name": "KuhnyaDreams5.0",
+      "syndicate": "QA Corps",
+      "size": 3,
+      "captain_fio": "Борисенко Дмитрий Антонович"
+    },
+    {
+      "name": "Studio Procrastination",
+      "syndicate": "QA Corps",
+      "size": 4,
+      "captain_fio": "Поспелов Денис Васильевич"
+    },
+    {
+      "name": "Team Spirit",
+      "syndicate": "QA Corps",
+      "size": 5,
+      "captain_fio": "Петренко Андрей Константинович"
+    },
+    {
+      "name": "Гель Фа men 250 мл",
+      "syndicate": "QA Corps",
+      "size": 4,
+      "captain_fio": "Васильченко Максим Владимирович"
+    },
+    {
+      "name": "Кавказские пленники",
+      "syndicate": "QA Corps",
+      "size": 5,
+      "captain_fio": "Чугунов Тимофей Анатольевич"
+    },
+    {
+      "name": "Команда УрФУ",
+      "syndicate": "QA Corps",
+      "size": 5,
+      "captain_fio": "Сморкалов Андрей Витальевич"
+    },
+    {
+      "name": "Маслмены",
+      "syndicate": "QA Corps",
+      "size": 3,
+      "captain_fio": "Сухоруков Максим Валерьевич"
+    },
+    {
+      "name": "Мопсярки",
+      "syndicate": "QA Corps",
+      "size": 5,
+      "captain_fio": "Лейко Ярослав Владимирович"
+    },
+    {
+      "name": "Невкусно без точки",
+      "syndicate": "QA Corps",
+      "size": 5,
+      "captain_fio": "Плешков Максим Сергеевич"
+    },
+    {
+      "name": "Проект от точки",
+      "syndicate": "QA Corps",
+      "size": 5,
+      "captain_fio": "Вилкин Павел Александрович"
+    },
+    {
+      "name": "Работает и точка",
+      "syndicate": "QA Corps",
+      "size": 5,
+      "captain_fio": "Байков Артём Алексеевич"
+    }
+  ],
+  "members": [
+    {
+      "fio": "Султанахметов Михаил Сергеевич",
+      "team": "CopyPaste",
+      "syndicate": "Forge",
+      "course": "2",
+      "role": "Captain"
+    },
+    {
+      "fio": "Ахмедвалиев Ишмурат Ильдарович",
+      "team": "CopyPaste",
+      "syndicate": "Forge",
+      "course": "2",
+      "role": "Member"
+    },
+    {
+      "fio": "Колыванов Семен Иванович",
+      "team": "CopyPaste",
+      "syndicate": "Forge",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Кустов Илья Сергеевич",
+      "team": "CopyPaste",
+      "syndicate": "Forge",
+      "course": "2",
+      "role": "Member"
+    },
+    {
+      "fio": "Распопов Тимофей Андреевич",
+      "team": "CopyPaste",
+      "syndicate": "Forge",
+      "course": "2",
+      "role": "Member"
+    },
+    {
+      "fio": "Штейнфельд Ирина Федоровна",
+      "team": "bamnyam",
+      "syndicate": "Forge",
+      "course": "3",
+      "role": "Captain"
+    },
+    {
+      "fio": "Боярских Арина Алексеевна",
+      "team": "bamnyam",
+      "syndicate": "Forge",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Горбунов Сергей Андреевич",
+      "team": "bamnyam",
+      "syndicate": "Forge",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Фирсов Никита Алексеевич",
+      "team": "bamnyam",
+      "syndicate": "Forge",
+      "course": "вольный",
+      "role": "Member"
+    },
+    {
+      "fio": "Разбежкин Дмитрий Вячеславович",
+      "team": "Без диких ягод",
+      "syndicate": "Forge",
+      "course": "2",
+      "role": "Captain"
+    },
+    {
+      "fio": "Ильин Иван Алексеевич",
+      "team": "Без диких ягод",
+      "syndicate": "Forge",
+      "course": "2",
+      "role": "Member"
+    },
+    {
+      "fio": "Прохоров Аркадий Андреевич",
+      "team": "Без диких ягод",
+      "syndicate": "Forge",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Фарленков Вениамин Владимирович",
+      "team": "Без диких ягод",
+      "syndicate": "Forge",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Репин Михаил Евгеньевич",
+      "team": "ВайбКодеры",
+      "syndicate": "Forge",
+      "course": "3",
+      "role": "Captain"
+    },
+    {
+      "fio": "Агзамов Ринат Радикович",
+      "team": "ВайбКодеры",
+      "syndicate": "Forge",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Калинина Анна Александровна",
+      "team": "ВайбКодеры",
+      "syndicate": "Forge",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Плотников Никита Максимович",
+      "team": "ВайбКодеры",
+      "syndicate": "Forge",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Якупов Артемий Ильич",
+      "team": "ВайбКодеры",
+      "syndicate": "Forge",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Коршунов Павел Александрович",
+      "team": "Гач&Муч",
+      "syndicate": "Forge",
+      "course": "3",
+      "role": "Captain"
+    },
+    {
+      "fio": "Батин Андрей",
+      "team": "Гач&Муч",
+      "syndicate": "Forge",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Кисляков Максим Вячеславович",
+      "team": "Маркетплейс и точка",
+      "syndicate": "Forge",
+      "course": "вольный",
+      "role": "Captain"
+    },
+    {
+      "fio": "Ибатулов Степан Васильевич",
+      "team": "Маркетплейс и точка",
+      "syndicate": "Forge",
+      "course": "вольный",
+      "role": "Member"
+    },
+    {
+      "fio": "Мешорер Кирилл Алексеевич",
+      "team": "Маркетплейс и точка",
+      "syndicate": "Forge",
+      "course": "вольный",
+      "role": "Member"
+    },
+    {
+      "fio": "Тришина Ульяна Андревна",
+      "team": "Топ 10% БРС",
+      "syndicate": "Forge",
+      "course": "3",
+      "role": "Captain",
+      "roles": [
+        "Protocol Coordinator"
+      ]
+    },
+    {
+      "fio": "Петров Виктор Иванович",
+      "team": "Топ 10% БРС",
+      "syndicate": "Forge",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Смирнов Евгений Сергеевич",
+      "team": "Топ 10% БРС",
+      "syndicate": "Forge",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Вазилова Полина Денисовна",
+      "team": "Точка",
+      "syndicate": "Forge",
+      "course": "3",
+      "role": "Captain"
+    },
+    {
+      "fio": "Кизилов Кирилл Романович",
+      "team": "Точка",
+      "syndicate": "Forge",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Мухина Татьяна Сергеевна",
+      "team": "Точка",
+      "syndicate": "Forge",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Титов Егор Федорович",
+      "team": "Точка",
+      "syndicate": "Forge",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Усольцев Максим Юрьевич",
+      "team": "Точка",
+      "syndicate": "Forge",
+      "course": "2",
+      "role": "Member"
+    },
+    {
+      "fio": "Иванов Владислав Денисович",
+      "team": "алкобаг и точка",
+      "syndicate": "Forge",
+      "course": "3",
+      "role": "Captain"
+    },
+    {
+      "fio": "Иванов Никита Алексеевич",
+      "team": "алкобаг и точка",
+      "syndicate": "Forge",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Имаев Тимофей Анатольевич",
+      "team": "алкобаг и точка",
+      "syndicate": "Forge",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Ионов Сергей Дмитриевич",
+      "team": "алкобаг и точка",
+      "syndicate": "Forge",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Никитенко Андрей Юрьевич",
+      "team": "алкобаг и точка",
+      "syndicate": "Forge",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Сафронов Александр Евгеньевич",
+      "team": "алкобаг и точка",
+      "syndicate": "Forge",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Ярмошенко Александр Ильич",
+      "team": "датак",
+      "syndicate": "Forge",
+      "course": "3",
+      "role": "Captain"
+    },
+    {
+      "fio": "Адылов Муротжон Кадыржанович",
+      "team": "датак",
+      "syndicate": "Forge",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Воронин Никита Евгеньевич",
+      "team": "датак",
+      "syndicate": "Forge",
+      "course": "вольный",
+      "role": "Member"
+    },
+    {
+      "fio": "Зайцев Максим Александрович",
+      "team": "датак",
+      "syndicate": "Forge",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Мингалев Евгений Вячеславович",
+      "team": "датак",
+      "syndicate": "Forge",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Шаравьев Артем Владимирович",
+      "team": "др'.",
+      "syndicate": "Forge",
+      "course": "3",
+      "role": "Captain"
+    },
+    {
+      "fio": "Владимиров Михаил Сергеевич",
+      "team": "др'.",
+      "syndicate": "Forge",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Кузьмин Максим Олегович",
+      "team": "др'.",
+      "syndicate": "Forge",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Никитин Артемий Дмитриевич",
+      "team": "др'.",
+      "syndicate": "Forge",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Фурман Максим Валерьевич",
+      "team": "др'.",
+      "syndicate": "Forge",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Рашитов Эдуард Ринатович",
+      "team": "карась",
+      "syndicate": "Forge",
+      "course": "3",
+      "role": "Captain"
+    },
+    {
+      "fio": "Вяцкова Екатерина Валерьевна",
+      "team": "карась",
+      "syndicate": "Forge",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Зюков Михаил Андреевич",
+      "team": "карась",
+      "syndicate": "Forge",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Ковалев Егор Александрович",
+      "team": "карась",
+      "syndicate": "Forge",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Моховиков Максим Дмитриевич",
+      "team": "карась",
+      "syndicate": "Forge",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Овчинников Данила Сергеевич",
+      "team": "карась",
+      "syndicate": "Forge",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Глушков Владимир Павлович",
+      "team": "нормальный ворк",
+      "syndicate": "Forge",
+      "course": "2",
+      "role": "Captain"
+    },
+    {
+      "fio": "Щипанов Арсений Кириллович",
+      "team": "нормальный ворк",
+      "syndicate": "Forge",
+      "course": "2",
+      "role": "Member"
+    },
+    {
+      "fio": "Селиванов Семён Максимович",
+      "team": "фухен духен",
+      "syndicate": "Forge",
+      "course": "3",
+      "role": "Captain"
+    },
+    {
+      "fio": "Селиванов Фёдор Максимович",
+      "team": "фухен духен",
+      "syndicate": "Forge",
+      "course": "вольный",
+      "role": "Member"
+    },
+    {
+      "fio": "Снетков Павел Михайлович",
+      "team": "фухен духен",
+      "syndicate": "Forge",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Караев Сергей Рамазанович",
+      "team": "Full Stack Attack",
+      "syndicate": "Interface",
+      "course": "вольный",
+      "role": "Captain"
+    },
+    {
+      "fio": "Быстров Михаил",
+      "team": "Full Stack Attack",
+      "syndicate": "Interface",
+      "course": "вольный",
+      "role": "Member"
+    },
+    {
+      "fio": "Дзбановская Анна Андреевна",
+      "team": "Full Stack Attack",
+      "syndicate": "Interface",
+      "course": "вольный",
+      "role": "Member"
+    },
+    {
+      "fio": "Новиков Борис Александрович",
+      "team": "Full Stack Attack",
+      "syndicate": "Interface",
+      "course": "вольный",
+      "role": "Member"
+    },
+    {
+      "fio": "Софронов Дмитрий Алексеевич",
+      "team": "Full Stack Attack",
+      "syndicate": "Interface",
+      "course": "вольный",
+      "role": "Member"
+    },
+    {
+      "fio": "Матович Стефан",
+      "team": "Kukushiki",
+      "syndicate": "Interface",
+      "course": "3",
+      "role": "Captain"
+    },
+    {
+      "fio": "Метелева Дарья Алексеевна",
+      "team": "Kukushiki",
+      "syndicate": "Interface",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Суркина Мария Олеговна",
+      "team": "Kukushiki",
+      "syndicate": "Interface",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Федорова Алина Владимировна",
+      "team": "Kukushiki",
+      "syndicate": "Interface",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Хорев Матвей Алексеевич",
+      "team": "OTTANTOTTO",
+      "syndicate": "Interface",
+      "course": "3",
+      "role": "Captain"
+    },
+    {
+      "fio": "Виноградов Арсений Александрович",
+      "team": "OTTANTOTTO",
+      "syndicate": "Interface",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Просеков Михаил Вадимович",
+      "team": "OTTANTOTTO",
+      "syndicate": "Interface",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Фокин Максим Павлович",
+      "team": "OTTANTOTTO",
+      "syndicate": "Interface",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Маяковский Владислав Александрович",
+      "team": "QWE",
+      "syndicate": "Interface",
+      "course": "3",
+      "role": "Captain"
+    },
+    {
+      "fio": "Бородулин Дмитрий Игоревич",
+      "team": "QWE",
+      "syndicate": "Interface",
+      "course": "2",
+      "role": "Member"
+    },
+    {
+      "fio": "Верзилов Максим Александрович",
+      "team": "QWE",
+      "syndicate": "Interface",
+      "course": "",
+      "role": "Member"
+    },
+    {
+      "fio": "Мандрыченко Виктория Александровна",
+      "team": "QWE",
+      "syndicate": "Interface",
+      "course": "2",
+      "role": "Member"
+    },
+    {
+      "fio": "Патрин Арсений Сергеевич",
+      "team": "QWE",
+      "syndicate": "Interface",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Мельникова Виктория Денисовна",
+      "team": "Randomcrew",
+      "syndicate": "Interface",
+      "course": "3",
+      "role": "Captain"
+    },
+    {
+      "fio": "Бабиков Данил Александрович",
+      "team": "Randomcrew",
+      "syndicate": "Interface",
+      "course": "2",
+      "role": "Member"
+    },
+    {
+      "fio": "Джобиров Владимир Джамшедович",
+      "team": "Randomcrew",
+      "syndicate": "Interface",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Дмитриенко Константин",
+      "team": "Randomcrew",
+      "syndicate": "Interface",
+      "course": "2",
+      "role": "Member"
+    },
+    {
+      "fio": "Найдин Александр Андреевич",
+      "team": "Randomcrew",
+      "syndicate": "Interface",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Володин Вячеслав Сергеевич",
+      "team": "Бри Бри Бикус Дикус Дебикус Дедикус",
+      "syndicate": "Interface",
+      "course": "3",
+      "role": "Captain"
+    },
+    {
+      "fio": "Ахматнуров Артём Альбертович",
+      "team": "Бри Бри Бикус Дикус Дебикус Дедикус",
+      "syndicate": "Interface",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Зуев Кирилл Павлович",
+      "team": "Бри Бри Бикус Дикус Дебикус Дедикус",
+      "syndicate": "Interface",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Колесников Константин Иванович",
+      "team": "Бри Бри Бикус Дикус Дебикус Дедикус",
+      "syndicate": "Interface",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Лысенко Александр Сергеевич",
+      "team": "Бри Бри Бикус Дикус Дебикус Дедикус",
+      "syndicate": "Interface",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Карягина Полина Дмитриевна",
+      "team": "Вкусно и точка",
+      "syndicate": "Interface",
+      "course": "3",
+      "role": "Captain"
+    },
+    {
+      "fio": "Карамышева Анастасия Сергеевна",
+      "team": "Вкусно и точка",
+      "syndicate": "Interface",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Сергеев Сергей Сергеевич",
+      "team": "Вкусно и точка",
+      "syndicate": "Interface",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Чижевская Милана Игоревна",
+      "team": "Вкусно и точка",
+      "syndicate": "Interface",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Чудиновских Артемий Владимирович",
+      "team": "Вкусно и точка",
+      "syndicate": "Interface",
+      "course": "2",
+      "role": "Member"
+    },
+    {
+      "fio": "Барковский Артём Олегович",
+      "team": "Изи 90",
+      "syndicate": "Interface",
+      "course": "3",
+      "role": "Captain"
+    },
+    {
+      "fio": "Зайцев Трофим Владимирович",
+      "team": "Изи 90",
+      "syndicate": "Interface",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Праводелова Александра Глебовна",
+      "team": "Изи 90",
+      "syndicate": "Interface",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Яковлева Александра Витальевна",
+      "team": "Изи 90",
+      "syndicate": "Interface",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Щавровская Полина Константиновна",
+      "team": "Мужчины и Поля",
+      "syndicate": "Interface",
+      "course": "3",
+      "role": "Captain",
+      "roles": [
+        "Protocol Coordinator"
+      ]
+    },
+    {
+      "fio": "Дунаев Лев Дмитриевич",
+      "team": "Мужчины и Поля",
+      "syndicate": "Interface",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Зиновьев Никита Андреевич",
+      "team": "Мужчины и Поля",
+      "syndicate": "Interface",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Зонов Александр Сергеевич",
+      "team": "Мужчины и Поля",
+      "syndicate": "Interface",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Чумейко Владислав Максимович",
+      "team": "Мужчины и Поля",
+      "syndicate": "Interface",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Чернихов Георгий Павлович",
+      "team": "Перекладыватели jsonов",
+      "syndicate": "Interface",
+      "course": "3",
+      "role": "Captain"
+    },
+    {
+      "fio": "Вагапов Роман Алексеевич",
+      "team": "Перекладыватели jsonов",
+      "syndicate": "Interface",
+      "course": "2",
+      "role": "Member"
+    },
+    {
+      "fio": "Жилин Артём Григорьевич",
+      "team": "Перекладыватели jsonов",
+      "syndicate": "Interface",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Казанцев Никита Андреевич",
+      "team": "Перекладыватели jsonов",
+      "syndicate": "Interface",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Яковлев Савелий Константинович",
+      "team": "Перекладыватели jsonов",
+      "syndicate": "Interface",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Агеев Илья Дмитриевич",
+      "team": "Прокрастинация",
+      "syndicate": "Interface",
+      "course": "2",
+      "role": "Captain"
+    },
+    {
+      "fio": "Абатуров Никита Викторович",
+      "team": "Прокрастинация",
+      "syndicate": "Interface",
+      "course": "2",
+      "role": "Member"
+    },
+    {
+      "fio": "Граблюк Роман Алексеевич",
+      "team": "Прокрастинация",
+      "syndicate": "Interface",
+      "course": "2",
+      "role": "Member"
+    },
+    {
+      "fio": "Костромитин Семён Викторович",
+      "team": "Прокрастинация",
+      "syndicate": "Interface",
+      "course": "2",
+      "role": "Member"
+    },
+    {
+      "fio": "Смирнов Евгений Игорьевич",
+      "team": "ПэпеФа",
+      "syndicate": "Interface",
+      "course": "3",
+      "role": "Captain"
+    },
+    {
+      "fio": "Харковец Ярослав Валерьевич",
+      "team": "ПэпеФа",
+      "syndicate": "Interface",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Торопов Дементий Сергеевич",
+      "team": "Разрабы Урала",
+      "syndicate": "Interface",
+      "course": "вольный",
+      "role": "Captain"
+    },
+    {
+      "fio": "Бахматов Дмитрий Сергеевич",
+      "team": "Разрабы Урала",
+      "syndicate": "Interface",
+      "course": "вольный",
+      "role": "Member"
+    },
+    {
+      "fio": "Плетнев Анатолий Алексеевич",
+      "team": "Разрабы Урала",
+      "syndicate": "Interface",
+      "course": "вольный",
+      "role": "Member"
+    },
+    {
+      "fio": "Попов Владимир Александрович",
+      "team": "Разрабы Урала",
+      "syndicate": "Interface",
+      "course": "вольный",
+      "role": "Member"
+    },
+    {
+      "fio": "Самойленков Кирилл Александрович",
+      "team": "Разрабы Урала",
+      "syndicate": "Interface",
+      "course": "вольный",
+      "role": "Member"
+    },
+    {
+      "fio": "Пестова Виктория Рафаиловна",
+      "team": "Хлебный мякиш",
+      "syndicate": "Interface",
+      "course": "3",
+      "role": "Captain"
+    },
+    {
+      "fio": "Анкудинова Алёна Алексеевна",
+      "team": "Хлебный мякиш",
+      "syndicate": "Interface",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Слиньков Илья Владимирович",
+      "team": "Хлебный мякиш",
+      "syndicate": "Interface",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Трофимова Анастасия Максимовна",
+      "team": "Хлебный мякиш",
+      "syndicate": "Interface",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Ильясова Лейсан Рамилевна",
+      "team": "Esc",
+      "syndicate": "QA Corps",
+      "course": "вольный",
+      "role": "Captain"
+    },
+    {
+      "fio": "Басырова Алина Радмировна",
+      "team": "Esc",
+      "syndicate": "QA Corps",
+      "course": "вольный",
+      "role": "Member"
+    },
+    {
+      "fio": "Васюк Анастасия Андреевна",
+      "team": "Esc",
+      "syndicate": "QA Corps",
+      "course": "вольный",
+      "role": "Member"
+    },
+    {
+      "fio": "Талхин Марсель",
+      "team": "Esc",
+      "syndicate": "QA Corps",
+      "course": "вольный",
+      "role": "Member"
+    },
+    {
+      "fio": "Борисенко Дмитрий Антонович",
+      "team": "KuhnyaDreams5.0",
+      "syndicate": "QA Corps",
+      "course": "3",
+      "role": "Captain"
+    },
+    {
+      "fio": "Толиков Никита Евгеньевич",
+      "team": "KuhnyaDreams5.0",
+      "syndicate": "QA Corps",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Торопицин Артемий Иванович",
+      "team": "KuhnyaDreams5.0",
+      "syndicate": "QA Corps",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Поспелов Денис Васильевич",
+      "team": "Studio Procrastination",
+      "syndicate": "QA Corps",
+      "course": "3",
+      "role": "Captain"
+    },
+    {
+      "fio": "Гюзель Алпер",
+      "team": "Studio Procrastination",
+      "syndicate": "QA Corps",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Четин Хюсейн Озгюр",
+      "team": "Studio Procrastination",
+      "syndicate": "QA Corps",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Шукшин Иван Дмитриевич",
+      "team": "Studio Procrastination",
+      "syndicate": "QA Corps",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Петренко Андрей Константинович",
+      "team": "Team Spirit",
+      "syndicate": "QA Corps",
+      "course": "3",
+      "role": "Captain"
+    },
+    {
+      "fio": "Агеев Марк",
+      "team": "Team Spirit",
+      "syndicate": "QA Corps",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Беспалова Валерия Олеговна",
+      "team": "Team Spirit",
+      "syndicate": "QA Corps",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Попугаев Александр Евгеньевич",
+      "team": "Team Spirit",
+      "syndicate": "QA Corps",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Путинцев Александр Витальевич",
+      "team": "Team Spirit",
+      "syndicate": "QA Corps",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Васильченко Максим Владимирович",
+      "team": "Гель Фа men 250 мл",
+      "syndicate": "QA Corps",
+      "course": "3",
+      "role": "Captain"
+    },
+    {
+      "fio": "Назаров Евгений Вадимович",
+      "team": "Гель Фа men 250 мл",
+      "syndicate": "QA Corps",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Сагитова Аделия Римовна",
+      "team": "Гель Фа men 250 мл",
+      "syndicate": "QA Corps",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Третьяков Артём Сергеевич",
+      "team": "Гель Фа men 250 мл",
+      "syndicate": "QA Corps",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Чугунов Тимофей Анатольевич",
+      "team": "Кавказские пленники",
+      "syndicate": "QA Corps",
+      "course": "3",
+      "role": "Captain",
+      "roles": [
+        "Protocol Coordinator"
+      ]
+    },
+    {
+      "fio": "Горбатенко Данил Андреевич",
+      "team": "Кавказские пленники",
+      "syndicate": "QA Corps",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Даниелян Ашот Артурович",
+      "team": "Кавказские пленники",
+      "syndicate": "QA Corps",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Дронов Данила Евгеньевич",
+      "team": "Кавказские пленники",
+      "syndicate": "QA Corps",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Дыдалин Алексей Ярославович",
+      "team": "Кавказские пленники",
+      "syndicate": "QA Corps",
+      "course": "вольный",
+      "role": "Member"
+    },
+    {
+      "fio": "Сморкалов Андрей Витальевич",
+      "team": "Команда УрФУ",
+      "syndicate": "QA Corps",
+      "course": "вольный",
+      "role": "Captain"
+    },
+    {
+      "fio": "Загидуллин Руслан Мансурович",
+      "team": "Команда УрФУ",
+      "syndicate": "QA Corps",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Сухоруков Максим Валерьевич",
+      "team": "Маслмены",
+      "syndicate": "QA Corps",
+      "course": "3",
+      "role": "Captain"
+    },
+    {
+      "fio": "Лейко Ярослав Владимирович",
+      "team": "Мопсярки",
+      "syndicate": "QA Corps",
+      "course": "2",
+      "role": "Captain"
+    },
+    {
+      "fio": "Беляков Константин Эдуардович",
+      "team": "Мопсярки",
+      "syndicate": "QA Corps",
+      "course": "вольный",
+      "role": "Member"
+    },
+    {
+      "fio": "Елфимов Ярослав Петрович",
+      "team": "Мопсярки",
+      "syndicate": "QA Corps",
+      "course": "2",
+      "role": "Member"
+    },
+    {
+      "fio": "Ляпин Семен Николаевич",
+      "team": "Мопсярки",
+      "syndicate": "QA Corps",
+      "course": "вольный",
+      "role": "Member"
+    },
+    {
+      "fio": "Рыбин Михаил Андреевич",
+      "team": "Мопсярки",
+      "syndicate": "QA Corps",
+      "course": "вольный",
+      "role": "Member"
+    },
+    {
+      "fio": "Плешков Максим Сергеевич",
+      "team": "Невкусно без точки",
+      "syndicate": "QA Corps",
+      "course": "3",
+      "role": "Captain"
+    },
+    {
+      "fio": "Гарипов Эльдар Ахлиманович",
+      "team": "Невкусно без точки",
+      "syndicate": "QA Corps",
+      "course": "вольный",
+      "role": "Member"
+    },
+    {
+      "fio": "Зиновьев Илья Игоревич",
+      "team": "Невкусно без точки",
+      "syndicate": "QA Corps",
+      "course": "2",
+      "role": "Member"
+    },
+    {
+      "fio": "Мурыгин Денис Александрович",
+      "team": "Невкусно без точки",
+      "syndicate": "QA Corps",
+      "course": "",
+      "role": "Member"
+    },
+    {
+      "fio": "Подойников Максим Александрович",
+      "team": "Невкусно без точки",
+      "syndicate": "QA Corps",
+      "course": "",
+      "role": "Member"
+    },
+    {
+      "fio": "Вилкин Павел Александрович",
+      "team": "Проект от точки",
+      "syndicate": "QA Corps",
+      "course": "3",
+      "role": "Captain"
+    },
+    {
+      "fio": "Мухомедьянов Шамиль Антонович",
+      "team": "Проект от точки",
+      "syndicate": "QA Corps",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Поляков Савелий Станиславович",
+      "team": "Проект от точки",
+      "syndicate": "QA Corps",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Предин Максим Павлович",
+      "team": "Проект от точки",
+      "syndicate": "QA Corps",
+      "course": "2",
+      "role": "Member"
+    },
+    {
+      "fio": "Чепчугов Артём Сергеевич",
+      "team": "Проект от точки",
+      "syndicate": "QA Corps",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Байков Артём Алексеевич",
+      "team": "Работает и точка",
+      "syndicate": "QA Corps",
+      "course": "2",
+      "role": "Captain"
+    },
+    {
+      "fio": "Лысцов Владислав Юрьевич",
+      "team": "Работает и точка",
+      "syndicate": "QA Corps",
+      "course": "2",
+      "role": "Member"
+    },
+    {
+      "fio": "Осипов Иван Николаевич",
+      "team": "Работает и точка",
+      "syndicate": "QA Corps",
+      "course": "3",
+      "role": "Member"
+    },
+    {
+      "fio": "Трошкин Дмитрий Витальевич",
+      "team": "Работает и точка",
+      "syndicate": "QA Corps",
+      "course": "2",
+      "role": "Member"
+    },
+    {
+      "fio": "Чертовиков Матвей Владимирович",
+      "team": "Работает и точка",
+      "syndicate": "QA Corps",
+      "course": "2",
+      "role": "Member"
+    }
+  ]
+}

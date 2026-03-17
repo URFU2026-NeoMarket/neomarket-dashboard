@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "last_updated": "2026-03-09",
+  "transactions": [
+    {
+      "date": "2026-03-03",
+      "team": "Разрабы Урала",
+      "member": "Бахматов Дмитрий Сергеевич",
+      "type": "Lecture Activity",
+      "amount": 10,
+      "note": "Активность на лекции 03.03"
+    },
+    {
+      "date": "2026-03-03",
+      "team": "Разрабы Урала",
+      "member": "Торопов Дементий Сергеевич",
+      "type": "Lecture Activity",
+      "amount": 10,
+      "note": "Активность на лекции 03.03"
+    },
+    {
+      "date": "2026-03-03",
+      "team": "Разрабы Урала",
+      "member": "Самойленков Кирилл Александрович",
+      "type": "Lecture Activity",
+      "amount": 10,
+      "note": "Активность на лекции 03.03"
+    },
+    {
+      "date": "2026-03-03",
+      "team": "алкобаг и точка",
+      "member": "Иванов Владислав Денисович",
+      "type": "Lecture Activity",
+      "amount": 10,
+      "note": "Активность на лекции 03.03"
+    },
+    {
+      "date": "2026-03-03",
+      "team": "Точка",
+      "member": "Усольцев Максим Юрьевич",
+      "type": "Lecture Activity",
+      "amount": 10,
+      "note": "Активность на лекции 03.03"
+    },
+    {
+      "date": "2026-03-03",
+      "team": "Топ 10% БРС",
+      "member": "Петров Виктор Иванович",
+      "type": "Lecture Activity",
+      "amount": 10,
+      "note": "Активность на лекции 03.03"
+    },
+    {
+      "date": "2026-03-03",
+      "team": "Кавказские пленники",
+      "member": "Даниелян Ашот Артурович",
+      "type": "Lecture Activity",
+      "amount": 10,
+      "note": "Активность на лекции 03.03"
+    },
+    {
+      "date": "2026-03-09",
+      "team": "Топ 10% БРС",
+      "member": "Тришина Ульяна Андревна",
+      "type": "Coordinator Bonus",
+      "amount": 25,
+      "note": "Coordinator Forge — Protocol Summit S1 (DEC-056)"
+    },
+    {
+      "date": "2026-03-09",
+      "team": "Мужчины и Поля",
+      "member": "Щавровская Полина Константиновна",
+      "type": "Coordinator Bonus",
+      "amount": 25,
+      "note": "Coordinator Interface — Protocol Summit S1 (DEC-056)"
+    },
+    {
+      "date": "2026-03-09",
+      "team": "Кавказские пленники",
+      "member": "Чугунов Тимофей Анатольевич",
+      "type": "Coordinator Bonus",
+      "amount": 25,
+      "note": "Coordinator QA Corps — Protocol Summit S1 (DEC-056)"
+    }
+  ]
+}

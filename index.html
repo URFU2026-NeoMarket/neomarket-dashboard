@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NeoMarket // Grid Ops Terminal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Scanline overlay -->
+  <div class="scanlines" aria-hidden="true"></div>
+
+  <!-- Loading state -->
+  <div id="loading" class="loading-screen">
+    <div class="loading-text">&gt; Initializing Grid Ops Terminal<span class="blink">_</span></div>
+  </div>
+
+  <!-- Error state -->
+  <div id="error" class="error-screen" hidden>
+    <div class="error-icon">[!]</div>
+    <div class="error-text"></div>
+  </div>
+
+  <!-- Main app -->
+  <div id="app" hidden>
+    <header class="header">
+      <div class="header-inner">
+        <h1 class="header-title">
+          <span class="title-neo">NeoMarket</span>
+          <span class="title-sep">//</span>
+          <span class="title-ops">Grid Ops Terminal</span>
+        </h1>
+        <div class="stats-bar" id="stats-bar"></div>
+      </div>
+    </header>
+
+    <div id="hero-block"></div>
+    <div id="whats-new-banner"></div>
+
+    <nav class="tabs">
+      <button class="tab-btn" data-tab="syndicates">
+        <span class="tab-icon">[S]</span> Syndicates
+      </button>
+      <button class="tab-btn active" data-tab="leaderboard">
+        <span class="tab-icon">[L]</span> Leaderboard
+      </button>
+      <button class="tab-btn" data-tab="search">
+        <span class="tab-icon">[?]</span> Search
+      </button>
+    </nav>
+
+    <main class="main">
+      <section id="tab-syndicates" class="tab-content" hidden></section>
+      <section id="tab-leaderboard" class="tab-content"></section>
+      <section id="tab-search" class="tab-content" hidden>
+        <div class="search-box">
+          <span class="search-prompt">&gt;</span>
+          <input type="text" id="search-input" placeholder="Найти участника..." autocomplete="off" spellcheck="false">
+        </div>
+        <div id="search-results"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span class="footer-text">NeoMarket Practice // 2026</span>
+    </footer>
+
+    <div id="team-selector-modal" hidden></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
