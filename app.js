@@ -790,7 +790,7 @@ function renderMemberCard(m) {
 
 // ===== TAB SWITCHING =====
 
-function switchTab(tab) {
+function switchTab(tab, pushHistory) {
   activeTab = tab;
 
   document.querySelectorAll('.tab-btn').forEach(btn => {
@@ -804,6 +804,35 @@ function switchTab(tab) {
   if (tab === 'leaderboard') renderLeaderboard();
   if (tab === 'syndicates') renderSyndicates();
   if (tab === 'search') renderSearchResults();
+
+  if (pushHistory !== false) {
+    const state = { tab, fio: searchState.selectedFio };
+    history.pushState(state, '', `#${tab}${searchState.selectedFio ? '/' + encodeURIComponent(searchState.selectedFio) : ''}`);
+  }
+}
+
+// ===== HISTORY NAVIGATION =====
+
+function restoreFromHistory(state) {
+  if (!state) return;
+  searchState.selectedFio = state.fio || null;
+  const input = document.getElementById('search-input');
+  if (state.fio) {
+    searchState.query = '';
+    if (input) input.value = '';
+  }
+  switchTab(state.tab || 'leaderboard', false);
+}
+
+function initFromHash() {
+  const hash = location.hash.replace('#', '');
+  if (!hash) return 'leaderboard';
+  const [tab, fio] = hash.split('/');
+  if (fio) {
+    searchState.selectedFio = decodeURIComponent(fio);
+    searchState.query = '';
+  }
+  return ['syndicates', 'leaderboard', 'search'].includes(tab) ? tab : 'leaderboard';
 }
 
 // ===== EVENT HANDLERS =====
@@ -946,6 +975,11 @@ function setupEvents() {
         break;
     }
   });
+
+  // Browser back/forward
+  window.addEventListener('popstate', (e) => {
+    restoreFromHistory(e.state);
+  });
 }
 
 // ===== INIT =====
@@ -963,7 +997,9 @@ async function init() {
     renderHeroBlock();
     renderWhatsNewBanner();
     setupEvents();
-    switchTab('leaderboard');
+    const startTab = initFromHash();
+    switchTab(startTab, false);
+    history.replaceState({ tab: startTab, fio: searchState.selectedFio }, '');
   } catch (err) {
     loadingEl.hidden = true;
     errorEl.hidden = false;
