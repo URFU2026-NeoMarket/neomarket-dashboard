@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-03-09",
+  "last_updated": "2026-03-19",
   "transactions": [
     {
       "date": "2026-03-03",
@@ -81,6 +81,54 @@
       "type": "Coordinator Bonus",
       "amount": 25,
       "note": "Coordinator QA Corps — Protocol Summit S1 (DEC-056)"
+    },
+    {
+      "date": "2026-03-18",
+      "team": "Без диких ягод",
+      "member": "Ильин Иван Алексеевич",
+      "type": "Lecture Activity",
+      "amount": 10,
+      "note": "Активность на лекции про LLM 18.03"
+    },
+    {
+      "date": "2026-03-18",
+      "team": "Топ 10% БРС",
+      "member": "Петров Виктор Иванович",
+      "type": "Lecture Activity",
+      "amount": 10,
+      "note": "Активность на лекции про LLM 18.03"
+    },
+    {
+      "date": "2026-03-18",
+      "team": "Мужчины и Поля",
+      "member": "Щавровская Полина Константиновна",
+      "type": "Lecture Activity",
+      "amount": 10,
+      "note": "Активность на лекции про LLM 18.03"
+    },
+    {
+      "date": "2026-03-18",
+      "team": "Кавказские пленники",
+      "member": "Чугунов Тимофей Анатольевич",
+      "type": "Lecture Activity",
+      "amount": 10,
+      "note": "Активность на лекции про LLM 18.03"
+    },
+    {
+      "date": "2026-03-18",
+      "team": "Команда УрФУ",
+      "member": "Сморкалов Андрей Витальевич",
+      "type": "Lecture Activity",
+      "amount": 10,
+      "note": "Активность на лекции про LLM 18.03"
+    },
+    {
+      "date": "2026-03-18",
+      "team": "CopyPaste",
+      "member": "Ахмедвалиев Ишмурат Ильдарович",
+      "type": "Lecture Activity",
+      "amount": 10,
+      "note": "Активность на лекции про LLM 18.03"
     }
   ]
 }
