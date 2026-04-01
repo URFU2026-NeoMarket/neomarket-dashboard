@@ -27,6 +27,16 @@ const TEAM_THRESHOLDS = [
   { name: 'Neural Watch',  value: 12000 },
 ];
 
+const FEED_PAGE_SIZE = 30;
+
+const FEED_VISIBLE_CREDIT_TYPES = new Set([
+  'Lecture Activity', 'Coordinator Bonus', 'Contract Reward',
+]);
+
+const FEED_VISIBLE_REP_TYPES = new Set([
+  'Protocol Summit', 'Milestone', 'Entrance Quest', 'Achievement',
+]);
+
 const ACHIEVEMENT_ICONS = {
   'handshake': { label: 'First Handshake', short: 'FH', title: 'Участие в Protocol Summit S1' },
 };
@@ -38,6 +48,7 @@ let activeTab = 'leaderboard';
 let expandedTeam = {};
 let searchState = { query: '', selectedFio: null };
 let myTeam = localStorage.getItem('neo_my_team');
+let feedState = { syndicateFilter: 'all', visibleCount: FEED_PAGE_SIZE };
 
 // ===== DATA LOADING =====
 
@@ -209,7 +220,11 @@ function buildDataModel(roster, creditsLog, repLog, sprints, achievements) {
   const teamRanking = Array.from(teamStats.values())
     .sort((a, b) => b.totalRep - a.totalRep);
 
-  return { memberBalances, teamStats, syndicateData, globalStats, roster, sprintData, achievementData, teamRanking };
+  return {
+    memberBalances, teamStats, syndicateData, globalStats, roster, sprintData, achievementData, teamRanking,
+    rawCreditsTx: creditsLog.transactions,
+    rawRepTx: repLog.transactions,
+  };
 }
 
 // ===== RANKS =====
@@ -788,6 +803,96 @@ function renderMemberCard(m) {
   `;
 }
 
+// ===== RENDER: Feed =====
+
+function buildFeedItems() {
+  const groups = new Map();
+
+  for (const tx of appData.rawCreditsTx) {
+    if (tx.amount <= 0) continue;
+    if (!FEED_VISIBLE_CREDIT_TYPES.has(tx.type)) continue;
+    const teamData = appData.teamStats.get(tx.team);
+    if (!teamData) continue;
+    const key = `${tx.date}|${tx.team}|${tx.type}|Cr`;
+    if (!groups.has(key)) {
+      groups.set(key, { date: tx.date, team: tx.team, syndicate: teamData.syndicate, type: tx.type, currency: 'Cr', totalAmount: 0, members: new Set() });
+    }
+    const g = groups.get(key);
+    g.totalAmount += tx.amount;
+    g.members.add(tx.member);
+  }
+
+  for (const tx of appData.rawRepTx) {
+    if (tx.total <= 0) continue;
+    if (!FEED_VISIBLE_REP_TYPES.has(tx.type)) continue;
+    if (!tx.syndicate) continue;
+    const key = `${tx.date}|${tx.team}|${tx.type}|Rep`;
+    if (!groups.has(key)) {
+      groups.set(key, { date: tx.date, team: tx.team, syndicate: tx.syndicate, type: tx.type, currency: 'Rep', totalAmount: 0, members: new Set() });
+    }
+    groups.get(key).members.add(tx.member);
+  }
+
+  const items = Array.from(groups.values()).map(g => ({
+    date: g.date,
+    team: g.team,
+    syndicate: g.syndicate,
+    type: g.type,
+    currency: g.currency,
+    displayAmount: g.currency === 'Cr' ? `+${g.totalAmount} Cr` : `${g.members.size} agents`,
+  }));
+
+  items.sort((a, b) => b.date.localeCompare(a.date) || a.team.localeCompare(b.team));
+  return items;
+}
+
+function renderFeed() {
+  const container = document.getElementById('tab-feed');
+  const allItems = buildFeedItems();
+  const filtered = feedState.syndicateFilter === 'all'
+    ? allItems
+    : allItems.filter(item => item.syndicate === feedState.syndicateFilter);
+  const visible = filtered.slice(0, feedState.visibleCount);
+  const remaining = filtered.length - visible.length;
+
+  // Filter bar
+  const filterBtns = ['all', ...SYNDICATE_ORDER].map(s => {
+    const label = s === 'all' ? 'All' : s;
+    const isActive = feedState.syndicateFilter === s ? ' active' : '';
+    return `<button class="feed-filter-btn${isActive}" data-syndicate="${s}">${escapeHtml(label)}</button>`;
+  }).join('');
+
+  let html = `<div class="feed-filters">${filterBtns}</div>`;
+
+  if (visible.length === 0) {
+    const msg = feedState.syndicateFilter === 'all'
+      ? '&gt; No transactions yet'
+      : `&gt; No activity in ${escapeHtml(feedState.syndicateFilter)} yet`;
+    html += `<div class="search-empty">${msg}</div>`;
+  } else {
+    html += '<div class="feed-list">';
+    for (const item of visible) {
+      const css = synCss(item.syndicate);
+      const amountClass = item.currency === 'Cr' ? 'feed-amount-cr' : 'feed-amount-rep';
+      html += `
+        <div class="feed-item">
+          <span class="tx-date">${formatDate(item.date)}</span>
+          <span class="feed-team" data-team="${escapeHtml(item.team)}" title="${escapeHtml(item.team)}">${escapeHtml(item.team)}</span>
+          <span class="badge badge-${css}">${escapeHtml(item.syndicate)}</span>
+          <span class="tx-type">${escapeHtml(item.type)}</span>
+          <span class="${amountClass}">${item.displayAmount}</span>
+        </div>
+      `;
+    }
+    html += '</div>';
+    if (remaining > 0) {
+      html += `<button class="feed-show-more">Show more (${remaining})</button>`;
+    }
+  }
+
+  container.innerHTML = html;
+}
+
 // ===== TAB SWITCHING =====
 
 function switchTab(tab, pushHistory) {
@@ -803,6 +908,7 @@ function switchTab(tab, pushHistory) {
 
   if (tab === 'leaderboard') renderLeaderboard();
   if (tab === 'syndicates') renderSyndicates();
+  if (tab === 'feed') renderFeed();
   if (tab === 'search') renderSearchResults();
 
   if (pushHistory !== false) {
@@ -832,7 +938,7 @@ function initFromHash() {
     searchState.selectedFio = decodeURIComponent(fio);
     searchState.query = '';
   }
-  return ['syndicates', 'leaderboard', 'search'].includes(tab) ? tab : 'leaderboard';
+  return ['syndicates', 'leaderboard', 'feed', 'search'].includes(tab) ? tab : 'leaderboard';
 }
 
 // ===== EVENT HANDLERS =====
@@ -885,6 +991,35 @@ function setupEvents() {
     }
     const row = e.target.closest('.syndicate-team-row');
     if (row) handleTeamClick('syndicates', row.dataset.team);
+  });
+
+  // Feed: filter, show more, team click
+  document.getElementById('tab-feed').addEventListener('click', (e) => {
+    const filterBtn = e.target.closest('.feed-filter-btn');
+    if (filterBtn) {
+      feedState.syndicateFilter = filterBtn.dataset.syndicate;
+      feedState.visibleCount = FEED_PAGE_SIZE;
+      renderFeed();
+      return;
+    }
+
+    if (e.target.closest('.feed-show-more')) {
+      feedState.visibleCount += FEED_PAGE_SIZE;
+      renderFeed();
+      return;
+    }
+
+    const teamLink = e.target.closest('.feed-team');
+    if (teamLink) {
+      const teamName = teamLink.dataset.team;
+      expandedTeam.leaderboard = teamName;
+      switchTab('leaderboard');
+      setTimeout(() => {
+        const row = document.querySelector(`.team-row[data-team="${CSS.escape(teamName)}"]`);
+        if (row) row.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }, 50);
+      return;
+    }
   });
 
   // Search: input with debounce
@@ -968,6 +1103,7 @@ function setupEvents() {
     switch (e.key) {
       case 's': case 'S': case 'ы': case 'Ы': switchTab('syndicates'); break;
       case 'l': case 'L': case 'д': case 'Д': switchTab('leaderboard'); break;
+      case 'f': case 'F': case 'а': case 'А': switchTab('feed'); break;
       case '/': case '.':
         e.preventDefault();
         switchTab('search');
