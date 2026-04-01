@@ -1507,6 +1507,19 @@ body::before {
   color: var(--text-secondary);
 }
 
+/* ===== HIGHLIGHT NAVIGATION ===== */
+
+@keyframes highlight-pulse {
+  0%   { box-shadow: 0 0 0 0 rgba(0, 240, 255, 0), 0 0 0 0 rgba(0, 240, 255, 0); border-color: var(--border); }
+  15%  { box-shadow: 0 0 12px 2px rgba(0, 240, 255, 0.4), inset 0 0 8px rgba(0, 240, 255, 0.05); border-color: var(--forge); }
+  40%  { box-shadow: 0 0 20px 4px rgba(0, 240, 255, 0.25), inset 0 0 12px rgba(0, 240, 255, 0.03); border-color: var(--forge); }
+  100% { box-shadow: 0 0 0 0 rgba(0, 240, 255, 0), 0 0 0 0 rgba(0, 240, 255, 0); border-color: var(--border-bright); }
+}
+
+.team-row.highlight-target {
+  animation: highlight-pulse 1.5s ease-out forwards;
+}
+
 /* ===== FEED TAB ===== */
 
 .feed-filters {

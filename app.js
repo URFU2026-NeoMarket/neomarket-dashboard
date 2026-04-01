@@ -1016,7 +1016,11 @@ function setupEvents() {
       switchTab('leaderboard');
       setTimeout(() => {
         const row = document.querySelector(`.team-row[data-team="${CSS.escape(teamName)}"]`);
-        if (row) row.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        if (row) {
+          row.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          row.classList.add('highlight-target');
+          row.addEventListener('animationend', () => row.classList.remove('highlight-target'), { once: true });
+        }
       }, 50);
       return;
     }
