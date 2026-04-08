@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "last_updated": "2026-03-13",
   "source": "extracted from create-tracking-sheet.gs (THR-0 + S0 survey)",
   "notes": [
@@ -57,14 +57,17 @@
     {
       "name": "Гач&Муч",
       "syndicate": "Forge",
-      "size": 2,
+      "size": 3,
       "captain_fio": "Коршунов Павел Александрович"
     },
     {
       "name": "Маркетплейс и точка",
       "syndicate": "Forge",
-      "size": 3,
-      "captain_fio": "Кисляков Максим Вячеславович"
+      "size": 0,
+      "captain_fio": "Кисляков Максим Вячеславович",
+      "status": "dissolved",
+      "dissolved_date": "2026-03-24",
+      "dissolved_reason": "2 из 3 участников покинули практикум. Мешорер К. переведён в Гач&Муч"
     },
     {
       "name": "Топ 10% БРС",
@@ -413,22 +416,8 @@
       "role": "Member"
     },
     {
-      "fio": "Кисляков Максим Вячеславович",
-      "team": "Маркетплейс и точка",
-      "syndicate": "Forge",
-      "course": "вольный",
-      "role": "Captain"
-    },
-    {
-      "fio": "Ибатулов Степан Васильевич",
-      "team": "Маркетплейс и точка",
-      "syndicate": "Forge",
-      "course": "вольный",
-      "role": "Member"
-    },
-    {
       "fio": "Мешорер Кирилл Алексеевич",
-      "team": "Маркетплейс и точка",
+      "team": "Гач&Муч",
       "syndicate": "Forge",
       "course": "вольный",
       "role": "Member"

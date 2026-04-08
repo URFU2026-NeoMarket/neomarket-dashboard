@@ -1,6 +1,6 @@
 {
-  "version": 4,
-  "last_updated": "2026-04-01",
+  "version": 5,
+  "last_updated": "2026-04-08",
   "transactions": [
     {
       "date": "2026-03-03",
@@ -481,6 +481,286 @@
       "type": "Lecture Activity",
       "amount": 10,
       "note": "Активность на лекции 01.04"
+    },
+    {
+      "date": "2026-03-09",
+      "team": "Гач&Муч",
+      "member": "Коршунов Павел Александрович",
+      "type": "Protocol Summit Contribution",
+      "amount": 15,
+      "note": "Protocol Summit S1 — backdated B2C contribution from 'Маркетплейс и точка' (DEC-060 merger)"
+    },
+    {
+      "date": "2026-03-09",
+      "team": "карась",
+      "member": "Рашитов Эдуард Ринатович",
+      "type": "Protocol Summit Contribution",
+      "amount": 15,
+      "note": "Protocol Summit S1 — B2C endpoint contribution (coordinator confirmed)"
+    },
+    {
+      "date": "2026-03-09",
+      "team": "Точка",
+      "member": "Вазилова Полина Денисовна",
+      "type": "Protocol Summit Contribution",
+      "amount": 15,
+      "note": "Protocol Summit S1 — B2C endpoint contribution (coordinator confirmed)"
+    },
+    {
+      "date": "2026-03-09",
+      "team": "Топ 10% БРС",
+      "member": "Тришина Ульяна Андреевна",
+      "type": "Protocol Summit Contribution",
+      "amount": 15,
+      "note": "Protocol Summit S1 — B2C endpoint contribution (coordinator confirmed)"
+    },
+    {
+      "date": "2026-03-09",
+      "team": "Без диких ягод",
+      "member": "Разбежкин Дмитрий Вячеславович",
+      "type": "Protocol Summit Contribution",
+      "amount": 15,
+      "note": "Protocol Summit S1 — B2C endpoint contribution (coordinator confirmed)"
+    },
+    {
+      "date": "2026-03-09",
+      "team": "алкобаг и точка",
+      "member": "Иванов Владислав Денисович",
+      "type": "Protocol Summit Contribution",
+      "amount": 15,
+      "note": "Protocol Summit S1 — B2C endpoint contribution (coordinator confirmed)"
+    },
+    {
+      "date": "2026-03-09",
+      "team": "ВайбКодеры",
+      "member": "Репин Михаил Евгеньевич",
+      "type": "Protocol Summit Contribution",
+      "amount": 15,
+      "note": "Protocol Summit S1 — B2C endpoint contribution (coordinator confirmed)"
+    },
+    {
+      "date": "2026-03-09",
+      "team": "CopyPaste",
+      "member": "Султанахметов Михаил Сергеевич",
+      "type": "Protocol Summit Contribution",
+      "amount": 15,
+      "note": "Protocol Summit S1 — B2C endpoint contribution (coordinator confirmed)"
+    },
+    {
+      "date": "2026-03-09",
+      "team": "Гач&Муч",
+      "member": "Коршунов Павел Александрович",
+      "type": "Protocol Summit Contribution",
+      "amount": 15,
+      "note": "Protocol Summit S1 — B2C endpoint contribution (coordinator confirmed)"
+    },
+    {
+      "date": "2026-03-09",
+      "team": "датак",
+      "member": "Ярмошенко Александр Ильич",
+      "type": "Protocol Summit Contribution",
+      "amount": 15,
+      "note": "Protocol Summit S1 — B2C endpoint contribution (coordinator confirmed)"
+    },
+    {
+      "date": "2026-03-09",
+      "team": "фухен духен",
+      "member": "Селиванов Семён Максимович",
+      "type": "Protocol Summit Contribution",
+      "amount": 15,
+      "note": "Protocol Summit S1 — B2C endpoint contribution (coordinator confirmed)"
+    },
+    {
+      "date": "2026-03-09",
+      "team": "bamnyam",
+      "member": "Штейнфельд Ирина Федоровна",
+      "type": "Protocol Summit Contribution",
+      "amount": 15,
+      "note": "Protocol Summit S1 — B2C endpoint contribution (coordinator confirmed)"
+    },
+    {
+      "date": "2026-03-09",
+      "team": "QWE",
+      "member": "Маяковский Владислав Александрович",
+      "type": "Protocol Summit Contribution",
+      "amount": 15,
+      "note": "Protocol Summit S1 — B2C endpoint contribution (coordinator confirmed)"
+    },
+    {
+      "date": "2026-03-09",
+      "team": "Вкусно и точка",
+      "member": "Карягина Полина Дмитриевна",
+      "type": "Protocol Summit Contribution",
+      "amount": 15,
+      "note": "Protocol Summit S1 — B2C endpoint contribution (coordinator confirmed)"
+    },
+    {
+      "date": "2026-03-09",
+      "team": "Мужчины и Поля",
+      "member": "Щавровская Полина Константиновна",
+      "type": "Protocol Summit Contribution",
+      "amount": 15,
+      "note": "Protocol Summit S1 — B2C endpoint contribution (coordinator confirmed)"
+    },
+    {
+      "date": "2026-03-09",
+      "team": "Прокрастинация",
+      "member": "Агеев Илья Дмитриевич",
+      "type": "Protocol Summit Contribution",
+      "amount": 15,
+      "note": "Protocol Summit S1 — B2C endpoint contribution (coordinator confirmed)"
+    },
+    {
+      "date": "2026-03-09",
+      "team": "Разрабы Урала",
+      "member": "Торопов Дементий Сергеевич",
+      "type": "Protocol Summit Contribution",
+      "amount": 15,
+      "note": "Protocol Summit S1 — B2C endpoint contribution (coordinator confirmed)"
+    },
+    {
+      "date": "2026-03-09",
+      "team": "Бри Бри Бикус Дикус Дебикус Дедикус",
+      "member": "Володин Вячеслав Сергеевич",
+      "type": "Protocol Summit Contribution",
+      "amount": 15,
+      "note": "Protocol Summit S1 — B2C endpoint contribution (coordinator confirmed)"
+    },
+    {
+      "date": "2026-03-09",
+      "team": "Randomcrew",
+      "member": "Мельникова Виктория Денисовна",
+      "type": "Protocol Summit Contribution",
+      "amount": 15,
+      "note": "Protocol Summit S1 — B2C endpoint contribution (coordinator confirmed)"
+    },
+    {
+      "date": "2026-03-09",
+      "team": "Перекладыватели jsonов",
+      "member": "Чернихов Георгий Павлович",
+      "type": "Protocol Summit Contribution",
+      "amount": 15,
+      "note": "Protocol Summit S1 — B2C endpoint contribution (coordinator confirmed)"
+    },
+    {
+      "date": "2026-03-09",
+      "team": "Изи 90",
+      "member": "Барковский Артём Олегович",
+      "type": "Protocol Summit Contribution",
+      "amount": 15,
+      "note": "Protocol Summit S1 — B2C endpoint contribution (coordinator confirmed)"
+    },
+    {
+      "date": "2026-03-09",
+      "team": "Изи 90",
+      "member": "Барковский Артём Олегович",
+      "type": "Useful Clarification",
+      "amount": 10,
+      "note": "Protocol Summit S1 — выявили несоответствие camelCase/snake_case в схеме"
+    },
+    {
+      "date": "2026-03-09",
+      "team": "Хлебный мякиш",
+      "member": "Пестова Виктория Рафаиловна",
+      "type": "Protocol Summit Contribution",
+      "amount": 15,
+      "note": "Protocol Summit S1 — B2C endpoint contribution (coordinator confirmed)"
+    },
+    {
+      "date": "2026-03-09",
+      "team": "Kukushiki",
+      "member": "Матович Стефан",
+      "type": "Protocol Summit Contribution",
+      "amount": 15,
+      "note": "Protocol Summit S1 — B2C endpoint contribution (coordinator confirmed)"
+    },
+    {
+      "date": "2026-03-09",
+      "team": "Full Stack Attack",
+      "member": "Караев Сергей Рамазанович",
+      "type": "Protocol Summit Contribution",
+      "amount": 15,
+      "note": "Protocol Summit S1 — B2C endpoint contribution (coordinator confirmed)"
+    },
+    {
+      "date": "2026-03-09",
+      "team": "OTTANTOTTO",
+      "member": "Хорев Матвей Алексеевич",
+      "type": "Protocol Summit Contribution",
+      "amount": 15,
+      "note": "Protocol Summit S1 — B2C endpoint contribution (coordinator confirmed)"
+    },
+    {
+      "date": "2026-03-09",
+      "team": "Гель Фа men 250 мл",
+      "member": "Васильченко Максим Владимирович",
+      "type": "Protocol Summit Contribution",
+      "amount": 15,
+      "note": "Protocol Summit S1 — B2C endpoint contribution (coordinator confirmed)"
+    },
+    {
+      "date": "2026-03-09",
+      "team": "Мопсярки",
+      "member": "Лейко Ярослав Владимирович",
+      "type": "Protocol Summit Contribution",
+      "amount": 15,
+      "note": "Protocol Summit S1 — B2C endpoint contribution (coordinator confirmed)"
+    },
+    {
+      "date": "2026-03-09",
+      "team": "Невкусно без точки",
+      "member": "Плешков Максим Сергеевич",
+      "type": "Protocol Summit Contribution",
+      "amount": 15,
+      "note": "Protocol Summit S1 — B2C endpoint contribution (coordinator confirmed)"
+    },
+    {
+      "date": "2026-03-09",
+      "team": "KuhnyaDreams5.0",
+      "member": "Борисенко Дмитрий Антонович",
+      "type": "Protocol Summit Contribution",
+      "amount": 15,
+      "note": "Protocol Summit S1 — B2C endpoint contribution (coordinator confirmed)"
+    },
+    {
+      "date": "2026-03-09",
+      "team": "Проект от точки",
+      "member": "Вилкин Павел Александрович",
+      "type": "Protocol Summit Contribution",
+      "amount": 15,
+      "note": "Protocol Summit S1 — B2C endpoint contribution (coordinator confirmed)"
+    },
+    {
+      "date": "2026-03-09",
+      "team": "Team Spirit",
+      "member": "Петренко Андрей Константинович",
+      "type": "Protocol Summit Contribution",
+      "amount": 15,
+      "note": "Protocol Summit S1 — B2C endpoint contribution (coordinator confirmed)"
+    },
+    {
+      "date": "2026-03-09",
+      "team": "Кавказские пленники",
+      "member": "Чугунов Тимофей Анатольевич",
+      "type": "Protocol Summit Contribution",
+      "amount": 15,
+      "note": "Protocol Summit S1 — B2C endpoint contribution (coordinator confirmed)"
+    },
+    {
+      "date": "2026-03-09",
+      "team": "Studio Procrastination",
+      "member": "Поспелов Денис Васильевич",
+      "type": "Protocol Summit Contribution",
+      "amount": 15,
+      "note": "Protocol Summit S1 — B2C endpoint contribution (coordinator confirmed, batch 2)"
+    },
+    {
+      "date": "2026-03-09",
+      "team": "Маслмены",
+      "member": "Сухоруков Максим Валерьевич",
+      "type": "Protocol Summit Contribution",
+      "amount": 15,
+      "note": "Protocol Summit S1 — B2C endpoint contribution (coordinator confirmed, batch 2)"
     }
   ]
 }
