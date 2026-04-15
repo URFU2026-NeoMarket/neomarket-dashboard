@@ -1,16 +1,17 @@
 {
-  "version": 4,
-  "last_updated": "2026-03-13",
+  "version": 5,
+  "last_updated": "2026-04-14",
   "source": "extracted from create-tracking-sheet.gs (THR-0 + S0 survey)",
   "notes": [
     "Studio Procrastination: size updated 3→4 (confirmed by students)",
     "Верзилов Максим Александрович (QWE): course unknown",
-    "Подойников, Мурыгин (Невкусно без точки): courses unknown"
+    "Подойников, Мурыгин (Невкусно без точки): courses unknown",
+    "v5 (2026-04-14): +команда «Синдикат потерянных» (3 чел, 2 курс, Captain Кашаев) → QA Corps. Решение после ревизии 3 ролей (Architect/Psychologist/Pedagogue), Founder выбрал QA Corps с обоснованием «задания по инфраструктуре тестирования»"
   ],
   "summary": {
-    "total_teams": 40,
-    "total_members_listed": 168,
-    "total_members_expected": 174,
+    "total_teams": 41,
+    "total_members_listed": 171,
+    "total_members_expected": 177,
     "by_syndicate": {
       "Forge": {
         "teams": 14,
@@ -23,9 +24,9 @@
         "expected": 63
       },
       "QA Corps": {
-        "teams": 12,
-        "listed": 48,
-        "expected": 53
+        "teams": 13,
+        "listed": 51,
+        "expected": 56
       }
     }
   },
@@ -272,6 +273,12 @@
       "syndicate": "QA Corps",
       "size": 5,
       "captain_fio": "Байков Артём Алексеевич"
+    },
+    {
+      "name": "Синдикат потерянных",
+      "syndicate": "QA Corps",
+      "size": 3,
+      "captain_fio": "Кашаев Никита Сергеевич"
     }
   ],
   "members": [
@@ -1442,6 +1449,27 @@
     {
       "fio": "Чертовиков Матвей Владимирович",
       "team": "Работает и точка",
+      "syndicate": "QA Corps",
+      "course": "2",
+      "role": "Member"
+    },
+    {
+      "fio": "Кашаев Никита Сергеевич",
+      "team": "Синдикат потерянных",
+      "syndicate": "QA Corps",
+      "course": "2",
+      "role": "Captain"
+    },
+    {
+      "fio": "Сиражетдинов Ростислав Маратович",
+      "team": "Синдикат потерянных",
+      "syndicate": "QA Corps",
+      "course": "2",
+      "role": "Member"
+    },
+    {
+      "fio": "Рожкова Алёна Андреевна",
+      "team": "Синдикат потерянных",
       "syndicate": "QA Corps",
       "course": "2",
       "role": "Member"

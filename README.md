@@ -1,12 +1,12 @@
 # NeoMarket // Grid Ops Terminal
 
-Дашборд практикума NeoMarket — read-only витрина для ~174 студентов, 40 команд, 3 синдикатов.
+Дашборд практикума NeoMarket — read-only витрина для ~177 студентов, 41 команды, 3 синдикатов.
 
 **Live:** [urfu2026-neomarket.github.io/neomarket-dashboard](https://urfu2026-neomarket.github.io/neomarket-dashboard/)
 
 ## Что показывает
 
-- **Leaderboard** — рейтинг 40 команд по суммарной Rep
+- **Leaderboard** — рейтинг 41 команды по суммарной Rep
 - **Syndicates** — составы Forge / Interface / QA Corps
 - **Search** — личная карточка участника (Rep, Credits, ранг, достижения, транзакции)
 - **Hero block** — персонализированный обзор «моей команды» (localStorage)
